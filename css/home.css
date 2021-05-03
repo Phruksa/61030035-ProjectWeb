@@ -1,0 +1,85 @@
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 36px;
+}
+body{
+    background-color: pink;
+}
+
+main{
+    display: grid;
+    grid-template-areas: "game profile";
+    font: 26px sans-serif;
+}
+#game{
+    grid-area: game;
+}
+#profile{
+    grid-area: profile;
+}
+section {
+        border: solid purple;
+        background-color: plum;
+        margin: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    display: grid;
+    background: paleturquoise;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 599px) {
+    main {
+        grid-template: auto / 1fr 1fr;
+        grid-template-areas: 
+            "game"
+            "profile";
+            grid-gap: 1.2em;
+        margin: 40px;
+    }
+    footer {
+        grid-template-rows: 1fr 1fr;
+    }
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    main {
+        grid-template: auto / 1fr 1fr;
+        grid-template-areas: 
+            "game"
+            "profile";
+            grid-gap: 1.2em;
+        margin: 40px 130px;
+    }
+    footer {
+        grid-template-rows: 1fr 1fr;
+    }
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 801px){
+    main {
+        grid-template: auto ;
+        grid-template-areas:
+            "game profile";
+        grid-gap: 1.5em;
+    }
+}

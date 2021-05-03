@@ -1,0 +1,60 @@
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 36px;
+    background-color: plum;
+}
+body{
+    background-color: pink;
+    font-family: "Arial", sans-serif;
+}
+section{
+    border: solid purple;
+    background-color: peachpuff;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+main{
+    font: 26px sans-serif;
+}
+.iconMenu{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    display: flex;
+    margin: 20px;
+}
+
+footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    background: paleturquoise;
+    margin: 20px 10px 5px 10px;
+    padding: 1px;
+    text-align: center;
+    font-size: 16px;
+}
+.gameindex{
+    text-align: center;
+}
+.gameXO {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 321px;
+    margin: 50px auto;
+}
+.status{
+    font-size: 24px;
+}
+.cell {
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px purple;
+    border: 3px solid purple;
+    font-size: 60px;
+}

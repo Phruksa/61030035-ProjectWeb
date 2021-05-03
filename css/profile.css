@@ -1,0 +1,50 @@
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 36px;
+    background-color: plum;
+}
+body{
+    background-color: pink;
+    font-family: "Arial", sans-serif;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.contacticon{
+    width: 100px;
+    height: 100px;
+}
+section{
+    border: solid purple;
+    background-color: peachpuff;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.profile, .contact{
+    font: 24px sans-serif;
+}
+main{
+    font: 20px sans-serif;
+}
+.iconMenu{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    display: flex;
+    margin: 20px;
+}
+
+footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    background: paleturquoise;
+    margin: 20px 10px 5px 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
