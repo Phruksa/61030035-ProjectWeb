@@ -28,7 +28,7 @@ section{
     font: 24px sans-serif;
 }
 main{
-    font: 20px sans-serif;
+    font: 18px sans-serif;
 }
 .iconMenu{
     width: 40px;
@@ -47,4 +47,15 @@ footer{
     padding: 5px;
     text-align: center;
     font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+    .dataprofile{
+        font-size: 16px;
+    }
+    footer {
+        grid-template-rows: 1fr 1fr;
+        font-size: 14px;
+    }
+    
 }
